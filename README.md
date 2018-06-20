@@ -58,122 +58,103 @@ Prediction label: The winning_team column will show "2" if the home team has won
         print('Probability of ' + backup_pred_set.iloc[i, 0] + ' winning: ', '%.3f'%(logreg.predict_proba(pred_set)[i][0]))
         print("")
 
-# Group matches 
-Russia and Saudi Arabia
-Winner: Russia
-Probability of Russia winning:  0.664
-Probability of Draw:  0.220
-Probability of Saudi Arabia winning:  0.115
-
-Uruguay and Egypt
-Winner: Uruguay
-Probability of Uruguay winning:  0.590
-Probability of Draw:  0.341
-Probability of Egypt winning:  0.069
-
-Iran and Morocco
-Draw
-Probability of Iran winning:  0.236
-Probability of Draw:  0.429
-Probability of Morocco winning:  0.335
-
-Portugal and Spain
-Draw
-Probability of Portugal winning:  0.297
-Probability of Draw:  0.351
-Probability of Spain winning:  0.351
-
-# Group 16
-Portugal and Uruguay
-Winner: Portugal
-Probability of Portugal winning:  0.428
-Probability of Draw:  0.285
-Probability of Uruguay winning:  0.287
-
-France and Croatia
-Winner: France
-Probability of France winning:  0.481
-Probability of Draw:  0.252
-Probability of Croatia winning:  0.267
-
-Brazil and Mexico
-Winner: Brazil
-Probability of Brazil winning:  0.695
-Probability of Draw:  0.209
-Probability of Mexico winning:  0.096
-
-England and Colombia
-Winner: England
-Probability of England winning:  0.516
-Probability of Draw:  0.368
-Probability of Colombia winning:  0.116
-
-Spain and Russia
-Winner: Spain
-Probability of Spain winning:  0.529
-Probability of Draw:  0.280
-Probability of Russia winning:  0.191
-
-Argentina and Peru
-Winner: Argentina
-Probability of Argentina winning:  0.713
-Probability of Draw:  0.212
-Probability of Peru winning:  0.075
-
-Germany and Switzerland
-Winner: Germany
-Probability of Germany winning:  0.672
-Probability of Draw:  0.192
-Probability of Switzerland winning:  0.137
-
-Belgium and Poland
-Winner: Belgium
-Probability of Belgium winning:  0.513
-Probability of Draw:  0.202
-Probability of Poland winning:  0.285
-
-# Quarters
-Portugal and France
-Winner: Portugal
-Probability of Portugal winning:  0.437
-Probability of Draw:  0.256
-Probability of France winning:  0.307
-
-Argentina and Spain
-Winner: Argentina
-Probability of Argentina winning:  0.518
-Probability of Draw:  0.262
-Probability of Spain winning:  0.220
-
-Brazil and England
-Winner: Brazil
-Probability of Brazil winning:  0.525
-Probability of Draw:  0.216
-Probability of England winning:  0.260
-
-Germany and Belgium
-Winner: Germany
-Probability of Germany winning:  0.563
-Probability of Draw:  0.269
-Probability of Belgium winning:  0.167
-
-# Semifinal 
-Brazil and Portugal
-Winner: Brazil
-Probability of Brazil winning:  0.705
-Probability of Draw:  0.152
-Probability of Portugal winning:  0.143
-
-Germany and Argentina
-Winner: Germany
-Probability of Germany winning:  0.441
-Probability of Draw:  0.264
-Probability of Argentina winning:  0.295
-
-# Final 
-Germany and Brazil
-Winner: Brazil
-Probability of Germany winning:  0.359
-Probability of Draw:  0.220
-Probability of Brazil winning:  0.421
-
+<h1><a id="Group_matches_4"></a>Group matches</h1>
+<p>Russia and Saudi Arabia<br>
+Winner: Russia<br>
+Probability of Russia winning:  0.664<br>
+Probability of Draw:  0.220<br>
+Probability of Saudi Arabia winning:  0.115</p>
+<p>Uruguay and Egypt<br>
+Winner: Uruguay<br>
+Probability of Uruguay winning:  0.590<br>
+Probability of Draw:  0.341<br>
+Probability of Egypt winning:  0.069</p>
+<p>Iran and Morocco<br>
+Draw<br>
+Probability of Iran winning:  0.236<br>
+Probability of Draw:  0.429<br>
+Probability of Morocco winning:  0.335</p>
+<p>Portugal and Spain<br>
+Draw<br>
+Probability of Portugal winning:  0.297<br>
+Probability of Draw:  0.351<br>
+Probability of Spain winning:  0.351</p>
+<h1><a id="Group_16_29"></a>Group 16</h1>
+<p>Portugal and Uruguay<br>
+Winner: Portugal<br>
+Probability of Portugal winning:  0.428<br>
+Probability of Draw:  0.285<br>
+Probability of Uruguay winning:  0.287</p>
+<p>France and Croatia<br>
+Winner: France<br>
+Probability of France winning:  0.481<br>
+Probability of Draw:  0.252<br>
+Probability of Croatia winning:  0.267</p>
+<p>Brazil and Mexico<br>
+Winner: Brazil<br>
+Probability of Brazil winning:  0.695<br>
+Probability of Draw:  0.209<br>
+Probability of Mexico winning:  0.096</p>
+<p>England and Colombia<br>
+Winner: England<br>
+Probability of England winning:  0.516<br>
+Probability of Draw:  0.368<br>
+Probability of Colombia winning:  0.116</p>
+<p>Spain and Russia<br>
+Winner: Spain<br>
+Probability of Spain winning:  0.529<br>
+Probability of Draw:  0.280<br>
+Probability of Russia winning:  0.191</p>
+<p>Argentina and Peru<br>
+Winner: Argentina<br>
+Probability of Argentina winning:  0.713<br>
+Probability of Draw:  0.212<br>
+Probability of Peru winning:  0.075</p>
+<p>Germany and Switzerland<br>
+Winner: Germany<br>
+Probability of Germany winning:  0.672<br>
+Probability of Draw:  0.192<br>
+Probability of Switzerland winning:  0.137</p>
+<p>Belgium and Poland<br>
+Winner: Belgium<br>
+Probability of Belgium winning:  0.513<br>
+Probability of Draw:  0.202<br>
+Probability of Poland winning:  0.285</p>
+<h1><a id="Quarters_78"></a>Quarters</h1>
+<p>Portugal and France<br>
+Winner: Portugal<br>
+Probability of Portugal winning:  0.437<br>
+Probability of Draw:  0.256<br>
+Probability of France winning:  0.307</p>
+<p>Argentina and Spain<br>
+Winner: Argentina<br>
+Probability of Argentina winning:  0.518<br>
+Probability of Draw:  0.262<br>
+Probability of Spain winning:  0.220</p>
+<p>Brazil and England<br>
+Winner: Brazil<br>
+Probability of Brazil winning:  0.525<br>
+Probability of Draw:  0.216<br>
+Probability of England winning:  0.260</p>
+<p>Germany and Belgium<br>
+Winner: Germany<br>
+Probability of Germany winning:  0.563<br>
+Probability of Draw:  0.269<br>
+Probability of Belgium winning:  0.167</p>
+<h1><a id="Semifinal_103"></a>Semifinal</h1>
+<p>Brazil and Portugal<br>
+Winner: Brazil<br>
+Probability of Brazil winning:  0.705<br>
+Probability of Draw:  0.152<br>
+Probability of Portugal winning:  0.143</p>
+<p>Germany and Argentina<br>
+Winner: Germany<br>
+Probability of Germany winning:  0.441<br>
+Probability of Draw:  0.264<br>
+Probability of Argentina winning:  0.295</p>
+<h1><a id="Final_116"></a>Final</h1>
+<p>Germany and Brazil<br>
+Winner: Brazil<br>
+Probability of Germany winning:  0.359<br>
+Probability of Draw:  0.220<br>
+Probability of Brazil winning:  0.421</p>
