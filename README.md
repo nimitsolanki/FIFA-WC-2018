@@ -15,7 +15,7 @@ Predict the winner of FIFA World Cup 2018 with the help of LogisticRegression.
     world_cup = pd.read_csv('datasets/World_Cup_2018_Dataset.csv')
     results = pd.read_csv('datasets/results.csv')
 
-**# narrowing to team patcipating in the world cup**
+**# Team patcipating in the world cup**
 
     worldcup_teams = ['Australia', ' Iran', 'Japan', 'Korea Republic', 
                 'Saudi Arabia', 'Egypt', 'Morocco', 'Nigeria', 
